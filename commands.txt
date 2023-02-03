@@ -1,0 +1,3 @@
+0) tailwindcss
+1) npm install redux react-redux --save
+2) npm install react-chartjs-2 chart.js
