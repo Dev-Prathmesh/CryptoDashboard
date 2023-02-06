@@ -11,7 +11,7 @@ const data = {
   datasets: [
     {
       label: "Crypto Coin",
-      backgroundColor: "rgb(255,255,255)",
+      backgroundColor: "rgb(0,0,255)",
       borderColor: "rgb(0,0,255)",
       data: [0, 10, 5, 2, 20, 30, 45],
     },
@@ -20,7 +20,7 @@ const data = {
 
 const LineChart = () => {
   return (
-    <div class="bg-white p-8 h-100 w-2/3 sm:100">
+    <div class="text-right bg-white p-5 h-100 xl:w-2/3">
      <ChartFilter/>
       <Line 
         data={data}
